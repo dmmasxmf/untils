@@ -35,7 +35,7 @@ public class RequestIP {
             while ((line = bufferedReader.readLine()) != null) {
                 stringBuilder.append(line);
             }
-            System.out.println("captureJavascript()的结果 待解决：\n" + stringBuilder.toString());
+           
 
             bufferedReader.close();
 

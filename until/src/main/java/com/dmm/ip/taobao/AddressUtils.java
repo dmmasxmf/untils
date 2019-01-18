@@ -22,8 +22,10 @@ public class AddressUtils {
      *返回类型的对象
      */
     public static <T> IPTaoBaoResult getAddress(String path,String params, String encoding) throws Exception {
+		//ip
         System.out.println(params);
         String str=getAddressToJSON(path,params,encoding);
+		//返回json 字符串
         System.out.println(str);
 
 
@@ -121,6 +123,7 @@ public class AddressUtils {
         } catch (Exception e) {
 
             e.printStackTrace();
+
 
         } finally {
 
