@@ -2,15 +2,16 @@ package com.dmm.ip.taobao;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
-import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 
+import com.dmm.ip.util.LogFactory;
 import com.dmm.until.jackson.JacksonUtil;
 import com.fasterxml.jackson.databind.JavaType;
 import com.google.gson.JsonParser;
+import org.apache.log4j.Level;
 
 /**
  * 淘宝的ip工具类
@@ -21,7 +22,7 @@ public class AddressUtils {
     /**
      *返回类型的对象
      */
-    public static <T> IPTaoBaoResult getAddress(String path,String params, String encoding) throws Exception {
+    public static <T> IpTaoBaoResult getAddress(String path, String params, String encoding) throws Exception {
 		//ip
         System.out.println(params);
         String str=getAddressToJSON(path,params,encoding);
@@ -35,8 +36,8 @@ public class AddressUtils {
             if(code==1){
                 return null;
             }
-            JavaType javaType= JacksonUtil.getCollectionType(IPTaoBaoResult.class,IPTaoBao.class);
-            IPTaoBaoResult<IPTaoBao> ipTaoBaoResult=JacksonUtil.JsonToBean(str,javaType);
+            JavaType javaType= JacksonUtil.getCollectionType(IpTaoBaoResult.class, IpTaoBao.class);
+            IpTaoBaoResult<IpTaoBao> ipTaoBaoResult=JacksonUtil.JsonToBean(str,javaType);
             System.out.println(ipTaoBaoResult.getData().getCity());
             return ipTaoBaoResult;
         }
@@ -79,22 +80,22 @@ public class AddressUtils {
         try {
 
             url = new URL(path);
-
-            connection = (HttpURLConnection) url.openConnection();// 新建连接实例
-
-            connection.setConnectTimeout(2000);// 设置连接超时时间，单位毫S?
-
-            connection.setReadTimeout(2000);// 设置读取数据超时时间，单位毫S?
-
-            connection.setDoInput(true);// 是否打开输出S? true|false
-
-            connection.setDoOutput(true);// 是否打开输入流true|false
-
-            connection.setRequestMethod("POST");// 提交方法POST|GET
-
-            connection.setUseCaches(false);// 是否缓存true|false
-
-            connection.connect();// 打开连接端口
+            // 新建连接实例
+            connection = (HttpURLConnection) url.openConnection();
+            // 设置连接超时时间，单位毫S?
+            connection.setConnectTimeout(2000);
+            // 设置读取数据超时时间，单位毫S?
+            connection.setReadTimeout(2000);
+            // 是否打开输出S? true|false
+            connection.setDoInput(true);
+            // 是否打开输入流true|false
+            connection.setDoOutput(true);
+            // 提交方法POST|GET
+            connection.setRequestMethod("POST");
+            // 是否缓存true|false
+            connection.setUseCaches(false);
+            // 打开连接端口
+            connection.connect();
 
             DataOutputStream out = new DataOutputStream(connection.getOutputStream());
 
@@ -113,22 +114,16 @@ public class AddressUtils {
             while ((line = reader.readLine()) != null) {
 
                 buffer.append(line);
-
             }
 
             reader.close();
 
             return buffer.toString();
-
         } catch (Exception e) {
-
             e.printStackTrace();
-
-
+            LogFactory.log("从淘宝获取ip次数受限", Level.ERROR,e);
         } finally {
-
             connection.disconnect();// 关闭连接
-
         }
 
         return null;

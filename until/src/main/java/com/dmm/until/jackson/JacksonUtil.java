@@ -18,9 +18,15 @@ import java.util.Map;
 
 public class JacksonUtil {
 
-    //转化器
+    /**
+     * 转化器
+     */
+
     private static ObjectMapper mapper = new ObjectMapper();
-    //对象转json
+    /**
+     *对象转json
+     */
+
     public static String BeanToJson(Object obj) throws IOException {
         StringWriter sw = new StringWriter();
         JsonGenerator gen = new JsonFactory().createGenerator(sw);
@@ -28,23 +34,34 @@ public class JacksonUtil {
         gen.close();
         return sw.toString();
     }
-    //json转对象
+    /**
+     * json转对象
+     */
+
     public static <T> T JsonToBean(String jsonStr, Class<T> objClass) throws JsonParseException, JsonMappingException, IOException {
 
         return mapper.readValue(jsonStr, objClass);
     }
-    //类型转化
+    /**
+     * 类型转化
+     */
+
     public static JavaType getCollectionType(Class<?> collectionClass, Class<?>... elementClasses) {
         return mapper.getTypeFactory().constructParametricType(collectionClass, elementClasses);
     }
 
-    //json转对象 复杂类型
+    /**
+     * json转对象 复杂类型
+     */
+
     public static <T> T JsonToBean(String jsonStr, JavaType javaType) throws JsonParseException, JsonMappingException, IOException {
 
         return mapper.readValue(jsonStr, javaType);
     }
 
-    //map转对象
+    /**
+     * map转对象
+     */
     public static <T> T mapToBean(Map map,Class<T> objClass) throws IOException {
 
         String s=mapper.writeValueAsString(map);

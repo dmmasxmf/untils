@@ -4,6 +4,7 @@ package com.dmm.ip.parse;
 /** 
  * 
  * @category 用来封装ip相关信息，目前只有两个字段，ip所在的国家和地区
+ * @author dmm
  */
  
 public class IPLocation {

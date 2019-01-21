@@ -2,7 +2,11 @@ package com.dmm.ip.taobao;
 
 import java.io.Serializable;
 
-public class IPTaoBaoResult <T>  implements Serializable {
+/**
+ * @author dmm
+ * @param <T>
+ */
+public class IpTaoBaoResult<T>  implements Serializable {
 
     private String code;
 

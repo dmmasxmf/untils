@@ -3,35 +3,74 @@ package com.dmm.ip.taobao;
 import java.io.Serializable;
 /**
  * 淘宝ip对象
+ * @author dmm
  */
 
-public class IPTaoBao implements Serializable {
+public class IpTaoBao implements Serializable {
 
-    //ip
+    /**
+     * ip
+     */
+
     private String ip;
-    //国家
+    /**
+     * 国家
+     */
+
     private String country;
-    //区域
+    /**
+     * 区域
+     */
+
     private String area;
-    //省份
+    /**
+     *  省份
+     */
+
     private String region;
-    //城市
+    /**
+     * 城市
+     */
+
     private String city;
-    //县
+    /**
+     * 县
+     */
+
     private String county;
-    //服务提供者
+    /**
+     * 服务提供者
+     */
+
     private String isp;
-    //国家id
+    /**
+     * 国家id
+     */
+
     private String country_id;
-    //区域id
+    /**
+     *  区域id
+     */
+
     private String area_id;
-    //省份id
+    /**
+     * 省份id
+     */
+
     private String region_id;
-    //城市id
+    /**城市id
+     *
+     */
     private String city_id;
-    //县id
+    /**
+     * 县id
+     */
+
     private String county_id;
-    //服务提供者id
+    /**
+     * 服务提供者id
+     */
+
     private String isp_id;
 
     public String getIp() {

@@ -7,6 +7,7 @@ import org.apache.log4j.Logger;
  * 
  * 用于解析的纯真数据库的日志工厂
  * 日志工厂
+ * @author dmm
  */
 public class LogFactory {
 	

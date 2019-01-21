@@ -7,6 +7,7 @@ import java.net.URL;
 
 /**
  * ip.cn的页面请求和
+ * @author dmm
  */
 public class RequestIP {
 

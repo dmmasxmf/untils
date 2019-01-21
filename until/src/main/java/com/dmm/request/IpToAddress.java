@@ -10,15 +10,15 @@ import java.util.Map;
 
 /**
  * 请求接口
+ * @author dmm
  */
-public class IPToAddress {
+public class IpToAddress {
 
     public static Address get138(String url) throws Exception {
 
         Map<String, String> map=get138ToMap(url);
 
         if(map==null || map.isEmpty()){
-            System.out.println("判断是否为空");
             return null;
         }
         return JacksonUtil.mapToBean(map,Address.class);

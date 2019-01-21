@@ -12,6 +12,7 @@ import  com.dmm.ip.util.LogFactory;
  
 /**
  * 工具类，提供一些方便的方法
+ * @author dmm
  */
 public class Util {
 	

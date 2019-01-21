@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 /**
  * 正则表达式匹配两个字符串之间的内容
- * @author Administrator
+ * @author dmm
  *
  */
 public class RegexUtil {

@@ -3,6 +3,9 @@ package com.dmm.string.stat;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author dmm
+ */
 public class CountCharacter {
 
     /**中文字符 */

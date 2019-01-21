@@ -1,5 +1,8 @@
 package com.dmm.request;
 
+/**
+ * @author dmm
+ */
 public class Address {
 
     private String ip;
