@@ -24,21 +24,17 @@ public class AddressUtils {
      */
     public static <T> IpTaoBaoResult getAddress(String path, String params, String encoding) throws Exception {
 		//ip
-        System.out.println(params);
+
         String str=getAddressToJSON(path,params,encoding);
 		//返回json 字符串
-        System.out.println(str);
-
 
         if(str!=null && !str.equals("")){
             int code=new JsonParser().parse(str).getAsJsonObject().get("code").getAsInt();
-            System.out.println(code+"状态值");
             if(code==1){
                 return null;
             }
             JavaType javaType= JacksonUtil.getCollectionType(IpTaoBaoResult.class, IpTaoBao.class);
             IpTaoBaoResult<IpTaoBao> ipTaoBaoResult=JacksonUtil.JsonToBean(str,javaType);
-            System.out.println(ipTaoBaoResult.getData().getCity());
             return ipTaoBaoResult;
         }
 
@@ -71,7 +67,7 @@ public class AddressUtils {
      * @param encoding
      * @return
      */
-    public static String getRs(String path, String params, String encoding) {
+    public static String getRs(String path, String params, String encoding) throws Exception{
 
         URL url = null;
 
@@ -117,16 +113,14 @@ public class AddressUtils {
             }
 
             reader.close();
-
             return buffer.toString();
         } catch (Exception e) {
-            e.printStackTrace();
-            LogFactory.log("从淘宝获取ip次数受限", Level.ERROR,e);
+            LogFactory.log("次数限制---> {} {}", Level.DEBUG,e);
+            throw e;
         } finally {
             connection.disconnect();// 关闭连接
         }
 
-        return null;
     }
 
     /**

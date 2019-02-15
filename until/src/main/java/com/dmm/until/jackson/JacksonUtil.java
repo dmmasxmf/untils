@@ -26,7 +26,6 @@ public class JacksonUtil {
     /**
      *对象转json
      */
-
     public static String BeanToJson(Object obj) throws IOException {
         StringWriter sw = new StringWriter();
         JsonGenerator gen = new JsonFactory().createGenerator(sw);

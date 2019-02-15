@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e95e883d-1b17-4170-89d7-bf3615897cf9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/ChunZhenToAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/ChunZhenToAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPEntry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPSeeker.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPSeeker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/AddressUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/AddressUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IPTaoBao.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IpTaoBao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IPTaoBaoResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IpTaoBaoResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/util/LogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/util/LogFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/request/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/request/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/request/IPToAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/request/IpToAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/request/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/request/Test1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/string/stat/CountCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/string/stat/CountCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/Test1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/until/jackson/JacksonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/until/jackson/JacksonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RegexUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RegexUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RequestIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RequestIP.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/until/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,44 +35,54 @@
     <session id="1371131014">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="41" />
+          <entry key="project.closed" value="49" />
           <entry key="project.open.time.0" value="13" />
-          <entry key="project.open.time.1" value="21" />
+          <entry key="project.open.time.1" value="27" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.36" value="1" />
-          <entry key="project.opened" value="42" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="165" />
-          <entry key="xml" value="6" />
+          <entry key="class" value="6" />
+          <entry key="java" value="201" />
+          <entry key="log4j" value="1" />
+          <entry key="logj" value="1" />
+          <entry key="properties" value="3" />
+          <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="165" />
-          <entry key="XML" value="6" />
+          <entry key="CLASS" value="6" />
+          <entry key="JAVA" value="201" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="1" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="15" />
-          <entry key="java" value="4013" />
+          <entry key="java" value="4424" />
+          <entry key="properties" value="8" />
           <entry key="xml" value="187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4013" />
+          <entry key="JAVA" value="4424" />
           <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Properties" value="8" />
           <entry key="XML" value="187" />
         </counts>
       </usages-collector>
@@ -95,11 +93,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/AddressUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="123" column="57" lean-forward="true" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="57" />
+            <state relative-caret-position="25">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,26 +108,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IpTaoBao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1055">
+            <state relative-caret-position="25">
               <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IpTaoBaoResult.java">
+        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/request/IpToAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/Test1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="458">
+              <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -134,8 +126,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/util/LogFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="250">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#363#364#0" expanded="true" />
                 <element signature="e#397#398#0" expanded="true" />
@@ -147,52 +139,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/request/Address.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
+            <state relative-caret-position="259">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/string/stat/CountCharacter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/HtmlParse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2105">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RegexUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="458">
+              <caret line="66" column="60" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RequestIP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/ChunZhenToAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="51" column="7" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="51" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPEntry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPLocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-355">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPSeeker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1475">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding>
-                <element signature="e#6290#6291#0" expanded="true" />
-                <element signature="e#6338#6339#0" expanded="true" />
-                <element signature="e#7108#7109#0" expanded="true" />
-                <element signature="e#7176#7177#0" expanded="true" />
-                <element signature="e#7934#7935#0" expanded="true" />
-                <element signature="e#7999#8000#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -211,6 +204,11 @@
       <find>getArea</find>
       <find>gb</find>
       <find>UTF</find>
+      <find>org.apache.log4j.ConsoleAppender</find>
+      <find>DEBUG---------</find>
+      <find>DEBUG</find>
+      <find>ming</find>
+      <find>LogFactory</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -226,10 +224,8 @@
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IPTaoBao.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IpTaoBao.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IpTaoBaoResult.java" />
-        <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/util/LogFactory.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/request/Address.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/string/stat/CountCharacter.java" />
-        <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/until/jackson/JacksonUtil.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RegexUtil.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RequestIP.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/request/IPToAddress.java" />
@@ -237,13 +233,16 @@
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPEntry.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IpEntry.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IpSeeker.java" />
-        <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/Test1.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Test3.java" />
-        <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/ChunZhenToAddress.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/request/IpToAddress.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/request/Test1.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Util.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPSeeker.java" />
+        <option value="$PROJECT_DIR$/until/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/until/jackson/JacksonUtil.java" />
+        <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/Test1.java" />
+        <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/util/LogFactory.java" />
+        <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/ChunZhenToAddress.java" />
         <option value="$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/AddressUtils.java" />
       </list>
     </option>
@@ -380,6 +379,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="until" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="taobao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -422,6 +429,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cut" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="untils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="until" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -431,9 +444,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="org.apache.log4j.ConsoleAppender&#9;PSI&#9;JAVA://org.apache.log4j.ConsoleAppender" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548052659517" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548058668503" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -462,7 +477,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test1 (1)">
+  <component name="RunManager" selected="Application.Test1">
     <configuration name="ChunZhenToAddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dmm.ip.parse.ChunZhenToAddress" />
       <module name="until" />
@@ -537,8 +552,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test1 (1)" />
         <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Test1 (1)" />
         <item itemvalue="Application.ChunZhenToAddress" />
         <item itemvalue="Application.Test3" />
         <item itemvalue="Application.HtmlParse" />
@@ -597,11 +612,19 @@
       <workItem from="1547521998351" duration="208000" />
       <workItem from="1547522234301" duration="37000" />
       <workItem from="1548042212808" duration="5765000" />
+      <workItem from="1548053341730" duration="36000" />
+      <workItem from="1548054166319" duration="4615000" />
+      <workItem from="1548920480049" duration="252000" />
+      <workItem from="1550214370368" duration="676000" />
+      <workItem from="1550215262768" duration="196000" />
+      <workItem from="1550215773729" duration="45000" />
+      <workItem from="1550215866127" duration="382000" />
+      <workItem from="1550216686810" duration="445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66166000" />
+    <option name="totallyTimeSpent" value="72813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,28 +637,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.27828747" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.25382262" />
       <window_info id="Structure" order="1" sideWeight="0.5022625" side_tool="true" weight="0.22094801" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5022625" side_tool="true" weight="0.22094801" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.2761578" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.16466552" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2109777" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.37392795" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2555746" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42465752" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923548" weight="0.3270548" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923548" weight="0.32590052" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6620926" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27272728" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50076455" side_tool="true" weight="0.32761577" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.27787307" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.2761578" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -643,30 +665,30 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3295107" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.1292049" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32874617" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.16590214" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.30810398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49773756" visible="true" weight="0.25382262" />
       <window_info id="Structure" order="1" sideWeight="0.5022625" side_tool="true" weight="0.22094801" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.5022625" side_tool="true" weight="0.22094801" />
-      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.2761578" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.16466552" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.2109777" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.42465752" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49923548" weight="0.3270548" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6620926" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50076455" side_tool="true" weight="0.32761577" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.27787307" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.37392795" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2555746" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.42465752" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49923548" weight="0.32590052" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27272728" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50076455" side_tool="true" weight="0.32761577" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.27787307" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.2761578" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -674,8 +696,8 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Database" order="7" weight="0.3295107" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.1292049" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32874617" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.16590214" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,41 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/until/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/until/jackson/JacksonUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/string/stat/CountCharacter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RequestIP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/request/IpToAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/request/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -746,88 +733,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Test3.java">
+    <entry file="file://$PROJECT_DIR$/until/src/log4j" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.properties" />
+    <entry file="file://$PROJECT_DIR$/until/src/logj" />
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Level.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="13" selection-end-line="17" />
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/HtmlParse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2346">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RegexUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="66" column="60" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/ChunZhenToAddress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="51" column="7" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="51" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPEntry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPLocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPSeeker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1475">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#6290#6291#0" expanded="true" />
-            <element signature="e#6338#6339#0" expanded="true" />
-            <element signature="e#7108#7109#0" expanded="true" />
-            <element signature="e#7176#7177#0" expanded="true" />
-            <element signature="e#7934#7935#0" expanded="true" />
-            <element signature="e#7999#8000#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IpTaoBao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1055">
-          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/Test1.java">
+    <entry file="file://$PROJECT_DIR$/until/src/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/ConsoleAppender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/LogManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1450">
+          <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/LoggerRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -838,10 +792,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="12" column="32" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/until/jackson/JacksonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPSeeker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1250">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/IPEntry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/AddressUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/IpTaoBao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="70" column="14" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/request/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/request/IpToAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/string/stat/CountCharacter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/HtmlParse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2105">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RegexUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="66" column="60" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/util/cut/RequestIP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/util/LogFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="250">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#363#364#0" expanded="true" />
             <element signature="e#397#398#0" expanded="true" />
@@ -849,17 +918,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/request/Address.java">
+    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/parse/ChunZhenToAddress.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/until/src/main/java/com/dmm/ip/taobao/AddressUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="123" column="57" lean-forward="true" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="57" />
+        <state relative-caret-position="163">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
         </state>
       </provider>
     </entry>
