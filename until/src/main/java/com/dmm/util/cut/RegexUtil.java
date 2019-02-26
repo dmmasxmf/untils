@@ -16,19 +16,6 @@ import java.util.regex.Pattern;
  */
 public class RegexUtil {
 
-//    public static void main(String[] args) {
-//		String str = "<?xml version='1.0' encoding='UTF-8'?><ufinterface billtype='gl' filename='e:\1.xml' isexchange='Y' proc='add' receiver='1060337@1060337-003' replace='Y' roottag='sendresult' sender='01' successful='Y'><sendresult><billpk></billpk><bdocid>w764</bdocid><filename>e:\1.xml</filename><resultcode>1</resultcode><resultdescription>单据w764开始处理...单据w764处理完毕!</resultdescription><content>2017.09-记账凭证-1</content></sendresult><sendresult><billpk></billpk><bdocid>w1007</bdocid><filename>e:\1.xml</filename><resultcode>1</resultcode><resultdescription>单据w1007开始处理...单据w1007处理完毕!</resultdescription><content>2017.10-记账凭证-1</content></sendresult><sendresult><billpk></billpk><bdocid>w516</bdocid><filename>e:\1.xml</filename><resultcode>1</resultcode><resultdescription>单据w516开始处理...单据w516处理完毕!</resultdescription><content>2017.07-记账凭证-50</content></sendresult></ufinterface>";
-//		//String str = "abc3443abcfgjhgabcgfjabc";
-//		String rgex = "<bdocid>(.*?)</bdocid>";
-//
-//	    System.out.println((new RegexUtil()).getSubUtil(str,rgex));
-//	    List<String> lists = (new RegexUtil()).getSubUtil(str,rgex);
-//	    for (String string : lists) {
-//			System.out.println(string);
-//		}
-//	    System.out.println((new RegexUtil()).getSubUtilSimple(str, rgex));
-//    }
-
     /**
      * 正则表达式匹配两个指定字符串中间的内容
      * @param soap
@@ -36,7 +23,8 @@ public class RegexUtil {
      */
     public static List<String> getSubUtil(String soap,String rgex){
         List<String> list = new ArrayList<String>();
-        Pattern pattern = Pattern.compile(rgex);// 匹配的模式
+        Pattern pattern = Pattern.compile(rgex);
+        // 匹配的模式
         Matcher m = pattern.matcher(soap);
         while (m.find()) {
             int i = 1;
@@ -52,7 +40,8 @@ public class RegexUtil {
      * @return
      */
     public static String getSubUtilSimple(String soap,String rgex){
-        Pattern pattern = Pattern.compile(rgex);// 匹配的模式
+        Pattern pattern = Pattern.compile(rgex);
+        // 匹配的模式
         Matcher m = pattern.matcher(soap);
         while(m.find()){
             return m.group(1);
@@ -70,12 +59,10 @@ public class RegexUtil {
                 //System.out.println(address); //to do
                 regex="(?<province>[^省]+省|.+行政区)(?<city>\\s)(?<ew>.*)(\\s)(?<isp>.*)";
             }else{
-                System.out.println("138省市匹配查询开始-------------------------------++++++++++++++++");
                 regex="(?<province>[^省]+省|.+自治区|.+市)(?<city>[^市]+市|.+自治州|.+地区)(\\s)(?<ew>.*)(\\s)(?<isp>.*)";
             }
         }else {
             //((?<province>[^省]+省|.+自治区)|上海|北京|天津|重庆) 切记
-            System.out.println("138省市匹配查询开始-------------------------------");
             regex="(?<province>[^省]+省|.+自治区|.+市)(?<city>[^市]+市|.+地区)(\\s)(?<isp>.*)";
         }
         Matcher m=Pattern.compile(regex).matcher(address);
@@ -100,7 +87,6 @@ public class RegexUtil {
         String regex="";
         //((?<province>[^省]+省|.+自治区)|上海|北京|天津|重庆)  少了一个竖杠 |.+
         if(address.contains("北京市")|| address.contains("天津市") || address.contains("上海市") || address.contains("重庆市") || address.contains("香港") || address.contains("澳门")){
-            System.out.println("-------------------------++++++++++++");
             regex="(?<province>[^省]+省|.+自治区|.+市|.+行政区)(?<city>)?(?<isp>.*)?";
         }else{
             regex="(?<province>[^省]+省|.+自治区|.+市)(?<city>[^市]+市|.+地区|.+区)(\\s)(?<isp>.*)";
@@ -130,7 +116,6 @@ public class RegexUtil {
 
     public static Map<String,String> addressResolutionChunZhen(String address){
         String regex="";
-        //System.out.println(address.length());
         if(address.length()>2){
             if(address.contains("省")){
                 //普通省市
@@ -142,7 +127,7 @@ public class RegexUtil {
 
 
             }else if(address.contains("北京")|| address.contains("天津") || address.contains("上海") || address.contains("重庆")){
-                //System.out.println(address);
+
                 //直辖市
                 regex="(?<province>[^省]+省|.+自治区|.+市)(?<city>)";
             }else if(address.contains("内蒙古")){

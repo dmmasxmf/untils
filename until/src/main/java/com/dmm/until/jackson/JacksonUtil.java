@@ -31,13 +31,14 @@ public class JacksonUtil {
         JsonGenerator gen = new JsonFactory().createGenerator(sw);
         mapper.writeValue(gen, obj);
         gen.close();
+        sw.close();
         return sw.toString();
     }
     /**
      * json转对象
      */
 
-    public static <T> T JsonToBean(String jsonStr, Class<T> objClass) throws JsonParseException, JsonMappingException, IOException {
+    public static <T> T JsonToBean(String jsonStr, Class<T> objClass) throws IOException {
 
         return mapper.readValue(jsonStr, objClass);
     }
@@ -53,7 +54,7 @@ public class JacksonUtil {
      * json转对象 复杂类型
      */
 
-    public static <T> T JsonToBean(String jsonStr, JavaType javaType) throws JsonParseException, JsonMappingException, IOException {
+    public static <T> T JsonToBean(String jsonStr, JavaType javaType) throws IOException {
 
         return mapper.readValue(jsonStr, javaType);
     }

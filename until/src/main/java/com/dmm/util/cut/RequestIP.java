@@ -36,18 +36,17 @@ public class RequestIP {
             while ((line = bufferedReader.readLine()) != null) {
                 stringBuilder.append(line);
             }
-           
 
             bufferedReader.close();
+            input.close();
 
             return stringBuilder.toString();
         }catch (Exception e){
-			
             e.printStackTrace();
         }finally {
             connection.disconnect();
-        }
 
+        }
         return null;
     }
 
