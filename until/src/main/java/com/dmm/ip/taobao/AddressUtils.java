@@ -54,7 +54,7 @@ public class AddressUtils {
         //String path = "http://ip.taobao.com/service/getIpInfo.php";
 
         String returnStr = getRs(path, "ip="+params, encoding);
-
+        //System.out.println(returnStr);
         return returnStr;
 
     }
